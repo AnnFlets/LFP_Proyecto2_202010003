@@ -1,0 +1,2 @@
+EliminarColeccion eliminacolec = nueva EliminarColeccion("NombreColeccion");
+

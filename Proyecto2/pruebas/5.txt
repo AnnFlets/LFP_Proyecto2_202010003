@@ -1,0 +1,8 @@
+InsertarUnico insertadoc = nueva InsertarUnico("NombreColeccion" ,
+"
+{
+ "nombre" : "Obra Literaria",
+ "autor" : "Jorge Luis"
+ }
+");
+

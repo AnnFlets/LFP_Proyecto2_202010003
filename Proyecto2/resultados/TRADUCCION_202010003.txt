@@ -1,0 +1,5 @@
+use('temp');
+db.literaturas.updateOne({"nombre":"Obra Literaria","autor":"Kateryn Ane"},{$set:{"autor":"Mario Vargas"}});
+db.literaturas.deleteOne({"nombre":"Obra Literaria"});
+db.literaturas.find();
+db.literaturas.findOne();

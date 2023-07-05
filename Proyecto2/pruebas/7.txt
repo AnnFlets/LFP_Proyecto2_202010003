@@ -1,0 +1,7 @@
+EliminarUnico eliminadoc = nueva EliminarUnico("NombreColeccion",
+"
+{
+ "nombre" : "Obra Literaria"
+}
+");
+

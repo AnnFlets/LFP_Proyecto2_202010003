@@ -1,0 +1,2 @@
+BuscarTodo todo = nueva BuscarTodo ("NombreColeccion");
+

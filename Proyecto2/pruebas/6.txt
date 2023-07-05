@@ -1,0 +1,10 @@
+ActualizarUnico actualizadoc = nueva ActualizarUnico("NombreColeccion",
+"
+{
+ "nombre" : "Obra Literaria"
+},
+{
+ $set: {"autor" : "Mario Vargas"}
+}
+");
+

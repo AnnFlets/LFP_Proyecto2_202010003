@@ -1,0 +1,1 @@
+CrearColeccion colec = nueva CrearColeccion("NombreColeccion");

@@ -1,0 +1,54 @@
+/*
+	ARCHIVO DE PRUEBAS 
+	CON COMENTARIOS
+*/
+
+--- CREAR BASE DE DATOS
+CreardBD temp1 = nueva CrearBD();
+
+--- ELIMINAR BASE DE DATOS
+EliminarBD temp1 = nuevva EliminarBD();
+
+/* 
+	BASE DE DATOS DE  LITERATURAS
+*/
+
+--- CREAR BASE DE DATOS
+CrearBD temp = nueva CrearBD();
+
+
+--- ACTUALIZAR DATO DE COLECCION LITERATURA
+ActualizarUnico actualizadoc = nueva ActualizarUnico("literaturas",
+"
+{
+ "nombre" : "Obra Literaria",
+ "autor" : "Kateryn Ane"
+},
+{
+ $set: {"autor" : "Mario Vargas"}
+}
+");
+
+--- ELIMINAR DATO DE LA COLECCION LITERATURA
+EliminarUnico eliminadoc = nueva EliminarUnico("literaturas",
+"
+{
+ "nombre" : "Obra Literaria"
+}
+");
+
+--- BUSCAR TODOS LOS DATOS DE LA COLECCION
+BuscarTodo todo = nueva BuscarTodo ("literaturas");
+
+--- BUSCAR UN DATO POR COLECCION
+BuscarUnico todo = nueva BuscarUnico ("literaturas");
+
+
+
+
+
+
+
+
+
+
